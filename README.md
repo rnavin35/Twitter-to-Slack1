@@ -15,3 +15,20 @@ account that slack is tweeting to sends a tweet independent of slack with the sp
 looking for then it will enter a infinte loop of reprinting the tweet on the twitter page and slack channel.
 ****************************DISCLAIMER****************: Do not use #cowboys as the specified #. It will crash/freeze your                  
 computer.
+
+How to build/Install Project(jar files located above as well):
+1)Add Twitter4J twitter java api to your build path. Given above or dowload from Website(http://twitter4j.org/en/index.html)
+2)Download the SLACK java api jar file to your build path. Given above or Dowload from Website(https://github.com/Ullink/simple-slack-api/tree/master/gradle/wrapper)
+3)Add the following repositories and dependencies into pom file.
+i)<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+  ii)<dependency>
+	    <groupId>com.github.Ullink</groupId>
+	    <artifactId>simple-slack-api</artifactId>
+	    <version>0.6.0</version>
+	</dependency>
+  
