@@ -13,9 +13,7 @@ and tweet out the messages.
 The project is completed and works as it is suppose to in in this version. Yet, I did run into one issue though if twitter                 
 account that slack is tweeting to sends a tweet independent of slack with the specified hashtag that the first part is                     
 looking for then it will enter a infinte loop of reprinting the tweet on the twitter page and slack channel.
-****************************DISCLAIMER****************: Do not use #cowboys as the specified #. It will crash/freeze your                  
-computer.
-
+****************************DISCLAIMER****************: Be careful with input words word with high frequency use are prone to overflow erros. Be mindful and use obscure words
 How to build/Install Project(jar files located above as well):
 1)Add Twitter4J twitter java api to your build path. Given above or dowload from Website(http://twitter4j.org/en/index.html)
 2)Download the SLACK java api jar file to your build path. Given above or Dowload from Website(https://github.com/Ullink/simple-slack-api/tree/master/gradle/wrapper)
